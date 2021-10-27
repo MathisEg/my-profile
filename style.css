@@ -1,6 +1,7 @@
 body {
-	background-image: url("images/astronaut.jpg");
-	background-size: cover;
+	background-image: url("images/bitcoin.jpg");
+	background-size: contain;
+	backdrop-filter: blur(10px)
     padding: 40px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
     border-radius: 4px;
@@ -8,13 +9,30 @@ body {
     text-align: center;
 	color: blueviolet;
     display: block;
+    margin: 20px 20px 20px 20px;
+    font-family: Calibri, serif;
+	font-size: 20px;
+	line-height: 1.6;
+	letter-spacing: 0px;
+	font-weight: 400;
+
  }
+
+ .list-inline i {
+    font-size: 50px;
+    padding-left: 20px;
+    justify-content: center;
+}
+
 .card-white {
 	margin: 50px auto;
 	background-color: white;
-	border: 0.5px solid black;
+	border-radius: 10px;
 	padding: 30px;
+	box-shadow: 2px 2px 3px skyblue;
 }
+
+
 
 
 .btn-blue {
@@ -28,7 +46,7 @@ img {
 }
 
 h1{
-	color: black;
+	color: #575F7D;
 	font-family: Source sans pro, serif; 
 	font-size: 50px;
 	font-weight: 100px;
@@ -41,41 +59,35 @@ h2{
 }
 
 .profile {
-  box-shadow: 2px 2px;
+  box-shadow: 10px 2px;
 }
 
 h2{
-	color: red;
+	color: #E574BC;
 }
 
 
-body{
-
-	font-family: Calibri, serif;
-	font-size: 20px;
-	line-height: 1.6;
-	letter-spacing: 0px;
-	font-weight: 400;
+p{
+	color: #334139
 }
 
 .shadowed{box-shadow:  10px 1px 3px black}
 
 #leader{
-	border:  3px solid orangered;
-	box shadow: 0px 10px 10px rgba(0,0,0,0.9);
-
+	border:  5px solid orange;
+	box shadow: 10px 10px 10px rgba(0,0,0,0.9);
 }
 
 
 a{
-	margin-top: 50px;	
+	margin-top: 50px;
 	text-decoration: none;
 	color: orange;
 }
 
 a:hover{
 	color: black;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 p{
@@ -85,4 +97,3 @@ p{
 .img-circle{
 	border-radius: 50%;
 }
-
